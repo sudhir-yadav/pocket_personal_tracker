@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Sidebar extends Component {
     render() {
         return (
-            <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <ul className="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
                 <li className="nav-item">
                     <Link className="nav-link" to="/">
                         <i className="las la-heartbeat d-inline-block font-weight-bold h4"></i>

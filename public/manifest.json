@@ -37,12 +37,5 @@
       "default_popup" : "index.html",
       "default_title" : "Sudhir's Personal application"
   },
-  "content_scripts" : [
-    {
-      "matches": [ "<all_urls>" ],
-      "css": ["/static/css/app.css", "/static/css/content.css"],
-      "js": ["/static/js/0.chunk.js", "/static/js/content.js"]
-    }
- ],
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
