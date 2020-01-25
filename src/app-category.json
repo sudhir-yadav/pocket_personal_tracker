@@ -1,0 +1,32 @@
+{
+    "0":{
+        "title":"Health",
+        "subtitle": null,
+        "symbol":"la-hearbeat",
+        "location-slug":null
+    },
+    "1":{
+        "title":"Learning",
+        "subtitle": null,
+        "symbol":"la-chalkboard-teacher",
+        "location-slug":"learning"
+    },
+    "2":{
+        "title":"Automation",
+        "subtitle": null,
+        "symbol":"la-robot",
+        "location-slug":"automation"
+    },
+    "3":{
+        "title":"Open Source",
+        "subtitle": null,
+        "symbol":"la-globe",
+        "location-slug":"opensource"
+    },
+    "4":{
+        "title":"Finance",
+        "subtitle": null,
+        "symbol":"la-wallet",
+        "location-slug":"finance"
+    }    
+}

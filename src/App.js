@@ -3,8 +3,9 @@ import {
   Router,
   Switch,
   Route
-}                 from "react-router-dom";
+} from "react-router-dom";
 import { createMemoryHistory /* , createBrowserHistory */ } from 'history';
+
 import Layout     from './layouts/Layout';
 import Health     from './views/Health';
 import Finance    from './views/Finance';

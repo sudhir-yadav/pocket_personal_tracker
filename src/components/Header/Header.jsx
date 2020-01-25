@@ -3,7 +3,10 @@ import React, { Component } from "react";
 class Header extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top border-bottom">
+                <h4 className="h4 text-gray-800">
+                    <i className="las mt-2 la-robot"></i> Automation
+                </h4>
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item dropdown no-arrow">
                         <a className="nav-link dropdown-toggle" href="/">
