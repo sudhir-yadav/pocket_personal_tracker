@@ -7,38 +7,38 @@ import Opensource from './views/Opensource';
 const AppRoutes = [
     {
         "title"         : "Health",
-        "subtitle"      : null,
+        "subtitle"      : '',
         "symbol"        : "la-hearbeat",
-        "location-slug" : null,
+        "location_slug" : '',
         "component"     : Health
     },
     {
         "title"         : "Learning",
-        "subtitle"      : null,
+        "subtitle"      : '',
         "symbol"        : "la-chalkboard-teacher",
-        "location-slug" : "learning",
-        "component"     : Finance
-    },
-    {
-        "title"         : "Automation",
-        "subtitle"      : null,
-        "symbol"        : "la-robot",
-        "location-slug" : "automation",
+        "location_slug" : "learning",
         "component"     : Learning
     },
     {
-        "title"         : "Open Source",
-        "subtitle"      : null,
-        "symbol"        : "la-globe",
-        "location-slug" : "opensource",
+        "title"         : "Automation",
+        "subtitle"      : '',
+        "symbol"        : "la-robot",
+        "location_slug" : "automation",
         "component"     : Automation
     },
     {
-        "title"         : "Finance",
-        "subtitle"      : null,
-        "symbol"        : "la-wallet",
-        "location-slug" : "finance",
+        "title"         : "Open Source",
+        "subtitle"      : '',
+        "symbol"        : "la-globe",
+        "location_slug" : "opensource",
         "component"     : Opensource
+    },
+    {
+        "title"         : "Finance",
+        "subtitle"      : '',
+        "symbol"        : "la-wallet",
+        "location_slug" : "finance",
+        "component"     : Finance
     }
 ];
 
