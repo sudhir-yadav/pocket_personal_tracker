@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top border-bottom">
                 <h4 className="h4 text-gray-800">
-                    <i className="las mt-2 la-robot"></i> SUDHIR.DEV
+                    <i className="las mt-2 la-robot"></i> SUDHIR
                 </h4>
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item dropdown no-arrow">
