@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <footer className="footer">
                 <div className="container p-1 copyright text-center">
-                    <span className="small">Copyright &copy; sudhir.dev 2020</span>
+                    {/* <span className="small">Copyright &copy; sudhir.dev 2020</span> */}
                 </div>
             </footer>
         )

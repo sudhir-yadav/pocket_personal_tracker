@@ -13,3 +13,24 @@ body {
   padding: .75rem 1rem;
   width: auto;
 }
+
+@media (min-width: 768px) {
+
+  .sidebar .nav-item .nav-link {
+    text-align: left;
+    padding: .85rem 1rem;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .sidebar .nav-item .nav-link {
+    padding: .65rem 1rem;
+  }
+
+ .sidebar-dark .nav-item .nav-link i {
+    font-size:1.6rem;
+  }
+
+}
