@@ -13,7 +13,7 @@ function Layout( props ) {
 
             <div id="content">
                 <Header/>
-                <div className="container-fluid">
+                <div className="container-fluid p-0">
                     {props.children}
                 </div>
             </div>
