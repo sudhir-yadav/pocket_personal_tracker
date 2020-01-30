@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 
 function Health() {
     return (
@@ -17,15 +18,19 @@ function Health() {
                 <li className="list-group-item">Sunday <div className="float-right">82 Kg</div></li>
             </ul>
             <div className="footer col-12 bg-white p-2">
+                
+            </div>
+
+            <Footer className="bg-white p-2">
                 <form>
-                    <div className="input-group mb-3">
+                    <div className="input-group">
                         <input type="text" className="form-control" placeholder="Enter weight" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                         <div className="input-group-append">
                             <button className="btn btn-outline-secondary" type="button">Save</button>
                         </div>
                     </div>
                 </form>
-            </div>
+            </Footer>
         </div>
         
     );

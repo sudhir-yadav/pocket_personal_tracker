@@ -1,7 +1,7 @@
 import React  from 'react';
 import Header  from '../components/Header';
 import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
+//import Footer from '../components/Footer';
 
 function Layout( props ) {
   return (
@@ -17,8 +17,6 @@ function Layout( props ) {
                     {props.children}
                 </div>
             </div>
-            <Footer/>
-
         </div>
     </div>
   );

@@ -34,3 +34,11 @@ body {
   }
 
 }
+
+
+@media (max-width: 350px) {
+
+  body {
+    height: 520px;
+  }
+}
