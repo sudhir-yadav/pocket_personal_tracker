@@ -12,8 +12,8 @@ function Layout( props ) {
         <div id="content-wrapper" className="d-flex flex-column">  
 
             <div id="content">
-                <Header/>
-                <div className="container-fluid p-0">
+                <Header headerTitle="sudhir" />
+                <div className="container-fluid">
                     {props.children}
                 </div>
             </div>
